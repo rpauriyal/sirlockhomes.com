@@ -1,0 +1,247 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+   
+     <meta charset="utf-8"/>
+    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+
+    <title>Sir Lock Homes</title>
+
+    <meta name="keywords" content="Clean design, flat design, modern design, real estate, real estate agent, real estate for sale, real estate listings, real estate html template, real estate websites, realestate agency, realtor, rentals, responsive realestate website template"/>
+    <meta name="description" content=" HomeSearch is a versatile and visually stunning PSD Template which is crafted with care for property listing portal, as well as agent and real estate agency’s website."/>
+    <meta name="author" content=""/>
+
+      <!-- favicon -->
+    <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png" />
+    <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png" />
+    
+
+    <!-- GOOGLE FONT -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700%7CRoboto:300,300i,400,400i,500,500i,700,700i,900" rel="stylesheet"/>
+
+   <!-- CSS LIBRARY -->
+    <link rel="stylesheet" type="text/css" href="assets\css\bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="assets\css\font-awesome.min.css"/>
+    <link rel="stylesheet" type="text/css" href="assets\css\font-awesome-animation.min.css"/>
+    <link rel="stylesheet" type="text/css" href="assets\css\jquery-ui.min.css" />
+    <link rel="stylesheet" type="text/css" href="assets\css\pe-icon-7-stroke.css" />
+    <link rel="stylesheet" type="text/css" href="assets\css\slick.css" />
+    <link rel="stylesheet" type="text/css" href="assets\css\slick-theme.css" />
+    <link rel="stylesheet" type="text/css" href="assets\css\jquery.bxslider.css" />
+    <link rel="stylesheet" type="text/css" href="assets\css\ekko-lightbox.css" />
+    <link rel="stylesheet" type="text/css" href="assets\css\font.css" />
+
+    <!-- Main css -->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="assets\css\responsive.css" />
+
+    <!-- color skin -->
+    <link rel="stylesheet" type="text/css" href="assets\css\color-skin\default.css" />
+    <!--[if lt IE 8]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+  <![endif]-->
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        
+
+        <header class="style2">
+        <div class="header-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 col-xs-5 header-info">
+                        <span class="hidden-xs">
+                         <i class="fa fa-map-marker"></i> 
+                         Opposite to fauji restrurant ,<br/>Near Dit University ,<br/>Dehradun	 
+                        </span>
+
+                        <span class="visible-xs"> <i class="fa fa-map-marker"></i> <a href="#"> View location</a> </span> 
+                    </div>
+                    <!--left-->
+
+                    <div class="col-md-6 col-sm-6 col-xs-7">
+                        <ul class="header-links pull-right">
+                            
+                            <li><a href="#" class="modal-login" data-toggle="modal" data-target=".myModal">Login</a></li>
+                            <li><a href="#" class="modal-register" data-toggle="modal" data-target=".myModal">Register </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--header top-->
+
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                    <a class="navbar-brand" href="index.html">
+                        <img src="assets/img/logo2.png" alt="" class="logo1"/>
+                        <img src="assets/img/logo2.png" alt="" class="logo2"/>
+                    </a>
+                </div>
+                <!-- button -->
+
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="current-menu-item dropdown">
+                            <a href="Default.aspx" >Home</a>
+                            </li>
+						<li>	<a href="about.aspx" >About</a>
+                            </li>
+                          
+                        <li>
+                            <a href="contact.aspx">Contact</a>
+                        </li>
+
+                        <li class="nav-btn">
+                            <a href="#"><i class="fa fa-phone"></i> 7351969867</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+    </header>
+    <!--header-->
+
+   
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+  <footer>
+        <div class="footer-top pri-pad">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-sm-8 left-block">
+                        <a href="#"><img src="assets/img/logo2.png" alt=""/></a>
+                        <div class="content-wrap mb-30">
+                            <p>
+                                 Sir Lock Homes is the user friendly website which assist the Bachelors  to easily search the rooms/pg/hostels/flats as per there requirments. .
+                            </p>
+                        </div>
+                        <!--content-->
+
+                        <div class="extra-info">
+                            <a href="mob:7351969867" class="faa-parent animated-hover">
+                                <i class="fa fa-phone faa-passing"></i> 7351969867
+                            </a>
+                            <a href="mailto:rahulpauriyal@gmail.com" class="faa-parent animated-hover">
+                                <i class="fa fa-envelope faa-passing"></i> rahulpauriyal@gmail.com
+                            </a>
+                        </div>
+                    </div>
+                    <!--left-->
+
+                    
+                    <!--mid-->
+
+                    <div class="col-md-4 col-sm-4 mid-block">
+                        <h5>Quick links</h5>
+                        <ul class="footer-link">
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">Register </a></li>
+                            <li><a href="#">Login </a></li>
+                        </ul>
+                    </div>
+                    <!--mid-->
+
+                    <div class="col-md-4 col-sm-4">
+                        <h5>Top locations</h5>
+                        <ul class="footer-link">
+                            <li><a href="#">Dehradun</a></li>
+                            <li><a href="#">Haldwani</a></li>
+                            
+                        </ul>
+                    </div>
+                    <!--mid-->
+                    <a href="admin/Dashboard/Default.aspx" target="_blank"><img src="assets/images/admin_edit.png" /></a>
+                </div>
+            </div>
+        </div>
+        <!--footer top-->
+
+        <div class="footer lh-normal">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 left-block">
+                        &copy; 2018 Sir Lock Homes. All rights reserved.
+                    </div>
+
+                    <div class="col-md-6 col-sm-6">
+                        <ul class="social-icons pull-right">
+                            <li>
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-instagram "></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--footer-->
+
+    <!-- back to top-->
+    <a href="#" class="scrollup"><i class="fa fa-angle-up"></i></a>
+
+  <!-- Js libery -->
+    <script src="assets\js\jquery-3.1.1.min.js"></script>
+    <script src="assets\js\bootstrap.min.js"></script>
+    <script src="assets\js\modernizr.js"></script>
+
+    <!--jquery ui-->
+    <script src="assets\js\jquery-ui.js"></script>
+    <script src="assets\js\jquery-ui-touch-punch.js"></script>
+
+    <!-- masonry -->
+    <script src="assets\js\masonry.pkgd.min.js"></script>
+
+    <!-- slider js -->
+    <script src="assets\js\slick.min.js"></script>
+    <script src="assets\js\jquery.bxslider.min.js"></script>
+
+    <!-- wow -->
+    <script src="assets\js\wow.min.js"></script>
+
+    <!-- lightbox -->
+    <script src="assets\js\ekko-lightbox.min.js"></script>
+
+    <!-- parallax -->
+    <script src="assets\js\parallax.js"></script>
+    
+    <!--Costom js-->
+    <script src="assets\js\main.js"></script>
+    </div>
+    </form>
+</body>
+</html>
